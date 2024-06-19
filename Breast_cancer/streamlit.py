@@ -12,8 +12,9 @@ ENDPOINT1 = '/predict'
 # ENDPOINT3 = '/addQuestion'
 
 # st.image('breastcancer.jpg', width=750)
-url = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheconversation.com%2Fbreast-cancer-awareness-campaigns-too-often-overlook-those-with-metastatic-breast-cancer-heres-how-they-can-do-better-190877&psig=AOvVaw2zpsadrg7VezCVGo-OvctJ&ust=1718886727720000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjT5JzW54YDFQAAAAAdAAAAABAE'
-st.image(url, width=750)
+url ='https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheconversation.com%2Fbreast-cancer-awareness-campaigns-too-often-overlook-those-with-metastatic-breast-cancer-heres-how-they-can-do-better-190877&psig=AOvVaw2zpsadrg7VezCVGo-OvctJ&ust=1718886727720000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjT5JzW54YDFQAAAAAdAAAAABAE'
+
+st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheconversation.com%2Fbreast-cancer-awareness-campaigns-too-often-overlook-those-with-metastatic-breast-cancer-heres-how-they-can-do-better-190877&psig=AOvVaw2zpsadrg7VezCVGo-OvctJ&ust=1718886727720000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjT5JzW54YDFQAAAAAdAAAAABAE', width=750)
 # st.header("Breast Cancer Chat-Bot")
 st.title("Breast Cancer Chat-Bot")
 
