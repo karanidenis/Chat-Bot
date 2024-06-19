@@ -1,11 +1,23 @@
 ## POST API for to response the user  
 from typing import Optional
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from chat import main_
 # import nltk
 
 app = FastAPI()
+
+# Allow all origins
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
 
 class QA(BaseModel):
     question: str
