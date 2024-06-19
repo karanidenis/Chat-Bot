@@ -1,4 +1,4 @@
-import Breast_cancer.streamlit as st
+import streamlit as st
 from streamlit_chat import message
 import requests
 import json
