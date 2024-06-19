@@ -12,9 +12,9 @@ ENDPOINT1 = '/predict'
 # ENDPOINT3 = '/addQuestion'
 
 # st.image('breastcancer.jpg', width=750)
-url ='https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheconversation.com%2Fbreast-cancer-awareness-campaigns-too-often-overlook-those-with-metastatic-breast-cancer-heres-how-they-can-do-better-190877&psig=AOvVaw2zpsadrg7VezCVGo-OvctJ&ust=1718886727720000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjT5JzW54YDFQAAAAAdAAAAABAE'
+url ='https://images.theconversation.com/files/487963/original/file-20221004-26-x590oy.jpg?ixlib=rb-4.1.0&rect=0%2C237%2C4288%2C2144&q=45&auto=format&w=1356&h=668&fit=crop'
 
-st.image('https://images.theconversation.com/files/487963/original/file-20221004-26-x590oy.jpg?ixlib=rb-4.1.0&rect=0%2C237%2C4288%2C2144&q=45&auto=format&w=1356&h=668&fit=crop', width=750)
+st.image(url, width=750)
 # st.header("Breast Cancer Chat-Bot")
 st.title("Breast Cancer Chat-Bot")
 
