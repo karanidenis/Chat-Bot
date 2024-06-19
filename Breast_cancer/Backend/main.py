@@ -7,7 +7,7 @@ from chat import main_
 # import nltk
 
 app = FastAPI()
-
+port = 8000
 # Allow all origins
 origins = ["*"]
 
@@ -36,4 +36,4 @@ def predict(request: QA):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="127.0.0.1", port=port)
