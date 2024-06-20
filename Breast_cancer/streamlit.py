@@ -5,7 +5,8 @@ import json
 
 
 # Constants 
-HOST = 'http://127.0.0.1:8000/api'  # HOST SERVER URL
+HOST = 'http://127.0.0.1:8080/api'  # HOST SERVER URL
+# HOST = 'https://chat-bot-backend-an9j.onrender.com/'
 ####### ENDPOINT of different Api ####################333
 ENDPOINT1 = '/predict'  
 # ENDPOINT2 = '/train'
