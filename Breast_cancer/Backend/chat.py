@@ -23,9 +23,12 @@ with open('breastCancer.json') as json_file:
     intents = json.load(json_file)
 
 
-words=pickle.load(open('Backend/words.pkl','rb'))  ## load unique word vocabulary
-classes=pickle.load(open('Backend/classes.pkl','rb')) ## load unique clases
-model=load_model('Backend/chatbotmodel.h5') ## load the train model
+# words=pickle.load(open('Backend/words.pkl','rb'))  ## load unique word vocabulary
+words=pickle.load(open('words.pkl','rb'))
+# classes=pickle.load(open('Backend/classes.pkl','rb')) ## load unique clases
+classes=pickle.load(open('classes.pkl','rb'))
+# model=load_model('Backend/chatbotmodel.h5') ## load the train model
+model=load_model('chatbotmodel.h5')
 
 correctQues = ""
     
