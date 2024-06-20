@@ -18,7 +18,8 @@ nltk.download('wordnet')
 lemmatizer=WordNetLemmatizer() 
 
 ## load the json file and store in a variable
-with open('Backend/breastCancer.json') as json_file:
+# with open('Backend/breastCancer.json') as json_file:
+with open('breastCancer.json') as json_file:
     intents = json.load(json_file)
 
 
