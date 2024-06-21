@@ -1,5 +1,5 @@
 ## Backend
-This backend loads the trained model and prepares the responses.
+This backend loads the trained model and prepares the responses. 
 ```chat.py``` - has funtions that prepare the response from the model  
 ```main.py``` - has the main function that runs the backend  
 ```utils.py``` - has function that corrects spelling mistakes  
