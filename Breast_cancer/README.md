@@ -2,14 +2,7 @@
 - This chatbot answers questions concerning Breast Cancer, ie, it's causes, symptoms and what it is in details, and many more
 
 ### To run the chatbot, follow the steps below:
-clone the repository:
-```bash
-git clone https://github.com/karanidenis/Chat-Bot
-```
-navigate to the directoty:
-```
-cd Breast_cancer
-```
+ 
 start a virtual environment
 Install the required libraries using the command:
 ```
